@@ -40,6 +40,7 @@ Include jQuery, `src/checkerboard.js` and `src/checkerboard.css`.
 
 ## Options
 Here is a full list of all the possible parameters and their default values.
+
 	'width'   : 1024, 	// width in px
 	'height'  : 600, 		// height in px
 	'border'  : 2, 		// cell border in px, set it to 0 to have a real checkerboard effect
