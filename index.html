@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Checkerboard Slider Demo</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="src/checkerboard.css" rel="stylesheet">
+</head>
+<body>
+   <div id="checkerboard_slideshow">
+      <ul class="checkerboard">
+         <li><img src="http://www.checkerboard-slider.com/img/tag-historique.jpg"></li>
+         <li><img src="http://www.checkerboard-slider.com/img/cuba.jpg"></li>
+         <li><img src="http://www.checkerboard-slider.com/img/loeil-6_modifie-11.jpg"></li>
+         <li><img src="http://www.checkerboard-slider.com/img/Defi.jpg"></li>
+         <li><img src="http://www.checkerboard-slider.com/img/visite.jpg"></li>
+	 <li><img src="http://www.checkerboard-slider.com/img/Im-not-your-anymore.jpg"></li>
+      </ul>
+   </div>
+
+   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   <script src="src/checkerboard.js"></script>
+   <script type="text/javascript">
+      $(document).ready(function() {
+         $("#checkerboard_slideshow").checkerboard();
+      });
+   </script>
+</body>
+</html>

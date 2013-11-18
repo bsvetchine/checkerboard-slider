@@ -1,0 +1,11 @@
+/*
+ * Checkerboard Slider
+ * Version      : 0.9
+ * Author       : Bertrand Svetchine
+ * Url          : http://www.checkerboard-slider.com
+ * Released under the MIT license :
+ *   http://opensource.org/licenses/MIT
+ */
+ul.checkerboard{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+span.cell{float:left;}
+span.filter{display:block;}
