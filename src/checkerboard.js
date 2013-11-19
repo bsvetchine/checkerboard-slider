@@ -49,7 +49,10 @@
 			$wrapper.children('.cell').each(function(i) {
 				$(this).css({
 					'border': settings.border + "px solid white",
-					'-webkit-transition': "opacity 300ms ease-out",
+					'-webkit-transition': "opacity 0.3s ease-out",
+					'-moz-transition': "opacity 0.3 ease-out",
+					'-o-transition': "opacity 0.3s ease-out",
+					'transition': "opacity 0.3s ease-out",
 					'width': swidth,
 					'height': sheight,
 					'background-image': "url(" + $($images[0]).attr("src") + ")",
